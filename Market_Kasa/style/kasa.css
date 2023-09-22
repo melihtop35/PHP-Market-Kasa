@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #EFEFEF;
+}
+.login{
+    width: 100%;
+    height: 720px;
+}
+#ilk-sutun{
+    background-color: #ffff;
+    width: 400px;
+    height: 720px;
+    float: left;
+
+}
+#Kasiyer{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 35px;
+    color: #383838;
+    font-weight: 500px;
+}
+
+#son-sutun{
+    width: 480px;
+    height: 700px;
+    float: right;
+    background-color: #ffff;
+    position: relative;
+    padding: 20px;
+}
+#form-container{
+    width: 500px;
+    height: 440px;
+    float: left;
+    margin: 50px 0px 0px 50px;
+}
+#form1{
+    margin-bottom: 30px;
+}
+.login-field{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #BFBFBF;
+    border-radius: 10px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 20px;
+    color: #383838;
+    font-weight: 500px;
+    padding: 0px 10px 0px 10px;
+}
+.login-field-icon{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 25px;
+    color: #818181;
+    font-weight: 500px;
+}
+.btn{
+    margin-bottom: 30px;
+    width: 347px;
+    height: 100px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#ekle{
+    background-image: url("image/Ekle.png");
+    margin-top: 20px;
+}
+#bitir{
+    background-image: url("image/Bitir.png");
+    position: absolute;
+    left: 85px;
+    bottom: 25px;
+}
+#cikis{
+    background-image: url("image/cikis.png");
+    border: none;
+    width: 217px;
+    height: 100px;
+    position: absolute;
+    bottom: 50px;
+    left: 91px;
+    right: 92px;
+    cursor: pointer;
+}
+p{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 60px;
+    color: #383838;
+    font-weight: 500px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+table{
+    margin-left: 40px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 20px;
+    color: #383838;
+    font-weight: 500px;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    text-align: left;
+    padding: 5px;
+}
+#Tr-Baslik{
+    color: #3E4FD6;
+    font-size: 25px;
+    font-weight: 700px;
+}
+#toplam{
+    position: absolute;
+    bottom: 180px;
+    left: 85px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 20px;
+    color: #383838;
+    font-weight: 500px;
+    text-align: center;
+}

@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.login{
+    width: 100%;
+    height: 720px;
+}
+#ilk-sutun{
+    background-color: #3E4FD6;
+    width: 400px;
+    height: 720px;
+    float: left;
+
+}
+
+.login-screen{
+    float: a;
+}
+
+#logo{
+    margin: 75px 0px 0px 50px;
+}
+#form-container{
+    width: 500px;
+    height: 440px;
+    float: left;
+    margin: 50px 0px 0px 270px;
+}
+.login-field{
+    margin-bottom: 25px;
+    margin-top: 5px;
+    width: 500px;
+    height: 100px;
+    border: 2px solid #BFBFBF;
+    border-radius: 10px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 40px;
+    color: #383838;
+    font-weight: 500px;
+    padding: 0px 10px 0px 10px;
+}
+.login-field-icon{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 25px;
+    color: #818181;
+    font-weight: 500px;
+}
+.btn{
+    margin-bottom: 30px;
+    width: 300px;
+    height: 120px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#kaydol-btn{
+    background-image: url('image/kaydol.png');
+}
+#kaydol-btn:hover{
+    background-image: url('image/kaydol-hover.png');
+}
+#giris-btn{
+    background-image: url('image/giris.png');
+}
+#giris-btn:hover{
+    background-image: url('image/giris-hover.png');
+}
+
+p{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 60px;
+    color: #383838;
+    font-weight: 500px;
+    text-align: center;
+    margin-bottom: 10px;
+}
